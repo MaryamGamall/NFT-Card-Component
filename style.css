@@ -1,0 +1,144 @@
+/* body */
+
+body{
+    background-color: #0d1a2d;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* section */
+
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* div 1 */
+
+.div1{
+    width: 350px;
+    height: 500px;
+    position: relative;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #15273f;
+    box-shadow: 10px 10px 30px 30px #0c192ce4 ;
+}
+.div1:hover{
+    box-shadow: 40px 40px 10px 10px #0c192ce4 ;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 5px;
+    margin: 20px 10px 0px 25px;
+}
+.img1:hover{
+    box-shadow: 2px 2px 3px 3px #0c192cc5 ;
+}
+.title{
+    position: absolute;
+    margin: 330px 0px 0px 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    
+}
+.title:hover{
+    color: #ffffffb6;
+    cursor: pointer;
+}
+.p1{
+    position: absolute;
+    margin: 360px 0px 0px 20px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    color: #546b93;
+}
+.p1:hover{
+    color: #6986b8;
+    cursor: pointer;
+}
+
+/* div 2 */
+
+.div2{
+    position: absolute;
+    color: #ffffff;
+    width: 20%;
+    margin-top: 360px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid#546b93;
+}
+
+.divv1{
+    display: flex;
+}
+.divv2{
+    display: flex;
+}
+h5{
+    margin-top: 0px;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.fa-ethereum , .eth{
+    color: #00fdfb;
+}
+.fa-clock,.day{
+    color: #8db2df;
+}
+.fa-ethereum:hover , .eth:hover{
+    color: #6bffff;
+    cursor: pointer;
+}
+.fa-clock:hover,.day:hover{
+    color: #739ce3;
+    cursor: pointer;
+}
+
+/* div 3 */
+
+.div3{
+    position: absolute;
+    color: #ffffff;
+    width: 20%;
+    margin-top: 470px;
+}
+.img2{
+    border: 1px solid #ffffff;
+    width:35px;
+    margin-left: 20px;
+    border-radius: 60%;
+}
+.img2:hover{
+    box-shadow: 2px 2px 3px 3px #0c192cc5 ;
+    cursor: pointer;
+}
+span{
+    color: #546b93;
+}
+.creater{
+    margin-top: -20px;
+    margin-left: 70px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+span:hover{
+    color:#719be4; 
+    cursor: pointer;
+}
+.creater:hover{
+    color:  #ffffffdc;
+    cursor: pointer;
+}
